@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    
+  <nav class="navbar">
+    <label class="navbar-toggle" id="js-navbar-toggle" for="chkToggle">
+            <i class="fa fa-bars" style="color:purple; position:relative; top:20px;"></i>
+        </label>
+    <a href="#" class="logo"><img src="img/logo.svg"></a>
+    <input type="checkbox" id="chkToggle"></input>
+    <ul class="main-nav" id="js-menu">
+      <li>
+        <a href="#" class="nav-links">Home</a>
+      </li>
+      <li>
+        <a href="#" class="nav-links">About Us</a>
+      </li>
+      <li>
+        <a href="#" class="nav-links">Blog</a>
+      </li>
+      <li>
+        <a href="#" class="nav-links">Contact Us</a>
+      </li>
+     
+      <li>
+        <a href="#" class="nav-links">Sell bit coin/gitcard</a>
+      </li>
+      <li>
+        <a href="#" class="nav-links"><button id="login">LOGIN</button></a>
+      </li>
+    </ul>
+  </nav>
+<!-- the intro container-->
+      <div class="container">
+          <div class="contact">
+          <div class="intro">
+<h4>HOME/CONTACT US</h4>
+<h1>24/7  customer support <br>including weekends.</h1>
+<p>We’re always there ti help regardless the number<br> of queries at hand.</p>
+      </div>
+      <div class="intro-img">
+          <img src="img/Group.png">
+      </div>
+    </div>
+</div>
+<!-- end of intro container-->
+
+<!-- the text container on the wave-->
+<div class="hello">
+   <p class="center"> please note that this message will be replied within the next 12hours</p> </div>
+   <!-- the contact form-->
+   <form>
+   <div class="contact-form">
+       <p>
+       <input type="text" placeholder=" Name*" required>
+     
+       <input type="text" placeholder=" Email*" required id="second">
+    </p>
+       <textarea cols="50" rows="5">
+         
+           Your Comment
+       </textarea></p>
+<button>Publish</button>
+   </div>
+</form>
+<!-- the embedded map-->
+
+<div class="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.7470851976404!2d3.366285714266642!3d6.553580624632322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8d908880d2d5%3A0xabc0185a2c6d3643!2s13%20Sawyer%20Cres%2C%20Obanikoro%2C%20Lagos!5e0!3m2!1sen!2sng!4v1591257381622!5m2!1sen!2sng"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+
+<!-- the footer-->
+<footer id="contact">
+<div class="footer-wrapper">
+  <div class="left">
+    
+    <!-- the footers first row-->
+    <img src="img/logo.svg">
+  <div class="content">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing<br>
+    Lorem ipsum, dolor sit amet consectetur adipisicing<br>
+     elit. Ullam, quas.</p>
+  </div>
+  <div class="social">
+  <a href="#"><span class="fab fa-facebook-f"></span></a>
+  <a href="#"><span class="fab fa-twitter"></span></a>
+  <a href="#"><span class="fab fa-instagram"></span></a>
+  <a href="#"><span class="fab fa-youtube"></span></a>
+  </div>
+  <div class="copy">
+  <p>&copy; 2019 designed by cr8tiv_yemmy</p>
+  </div>
+</div>
+
+  <!-- the second first row-->
+<div class="area2">
+  <h2>Coinbase Links</h2>
+  <div class="content2">
+  <ul>
+    <li><a>Home</a></li>
+    <li><a>About</a></li>
+    <li><a>Blog</a></li>
+    <li><a>Sell</a></li>
+    <li><a>Contact Us </a></li>
+  </ul>
+</div>
+</div>
+
+  <!-- the footers 3rd row-->
+<div class="area3">
+  <h2>Contact Us</h2>
+  <div class="content3">
+  <P>(+234)137567228<br> Coinbase@gmail.com<br>address goes here</P>
+  <div class="app"><p>Download Our App</p></div>
+</div>
+</div>
+
+  <!-- the footers 4th row-->
+<div class="area2">
+  <h2>Coinbase Instagram</h2>
+</div>
+</footer>
+
+  <!-- the script for the header-->
+<script>
+  let sell = document.getElementById("clicksell");
+let buy = document.getElementById("clickbuy");
+let buyse
+ll = document.getElementById("sellbuy");
+
+function showBuy() {
+    buysell.style.display = "block"
+    sell.style.visibility = "visible"
+}
+
+function closeBuy() {
+    buysell.style.display = "none"
+    sell.style.visibility = "hidden"
+}
+
+
+
+
+
+
+buy.addEventListener("click", function(e) {
+    e.preventDefault
+    showBuy();
+
+});
+
+
+sell.addEventListener("click", function(e) {
+    e.preventDefault
+    closeBuy();
+
+});
+</script>
+</body>
+</html>
