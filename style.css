@@ -131,6 +131,9 @@ color:purple;    }
     font-size:12px;
     margin-bottom: 10px;
   }
+  div.intro{
+    margin-bottom: 80px;
+  }
   .contact{
       width:80%;
       margin: auto;
@@ -150,12 +153,14 @@ color:purple;    }
       bottom:30px;
   }
   .hello p{
-      position: relative;
-      bottom:80px;
+    position: relative;
+    bottom:120px;
       text-align: center;
       color:black;
 
   }
+  
+  
   form{
      text-align:center;
      position: relative;
@@ -275,16 +280,19 @@ footer{
     margin-bottom: 80px;
   }
   div.intro{
-    margin-top: 10px;
-    padding:20px;
+    margin-top: 40px;
   }
   img{
     width:300px;
     margin-top: 20px;
 }
+img#group{
+  margin-top: -25px;
+}
+
 input[type=text]{
   padding:12px;
-  margin-top: 20px;
+  margin-top: 80px;
   width: 250px;
 }
 textarea{
@@ -304,6 +312,11 @@ button{
 flex-direction: column; 
 text-align: center;
 }
+p.center{
+  padding: 40px;
+}
+img#group{
+  margin-bottom: 140px;
  }
 @media screen and (max-width: 500px) {
   .intro p{
@@ -312,16 +325,21 @@ text-align: center;
   }
   .intro h1{
     font-size: 24px;
-    width:100%;
 
   }
+  div.intro{
+    margin-top: 60px;
+  }
+img#group{
+  margin-top: -25px;
+}
   .footer-wrapper{
     width:100%;
 flex-direction: column; 
  text-align: center;
   }
   input[type=text]{
-    margin-top: 30px;
+    margin-top: 80px;
     width: 200px;
   }
   textarea{
@@ -331,20 +349,27 @@ flex-direction: column;
   button{
     right:25%;
   }
-  
+
+p.center{
+  padding: 40px;
+}
  }
  @media screen and (max-width: 380px) {
   input[type=text]{
-    margin-top: 40px;
+    margin-top: 100px;
     width: 150px;
   }
   textarea{
-    width: 150px;
+    width: 180px;
+    text-align: left;
    
   }
   button{
     right:3%;
     width:100px;
+  
   }
-
+p.center{
+  padding: 40px;
+}
  }
